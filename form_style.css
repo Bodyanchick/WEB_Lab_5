@@ -1,0 +1,209 @@
+	body {
+		background: #222B2A;
+		margin: 0;
+	}
+
+	::-webkit-scrollbar {
+		width: 0px;	
+	}	
+
+	h3{
+		color: #fff;
+		font-size: 24px;
+		text-transform: uppercase;
+		position: center;
+		margin-left: -70px;
+
+
+	}
+
+	#sub_button{
+		text-decoration: none;
+  		outline: none;
+  		display: inline-block;
+		width: 400px;
+		height: 70px;
+		line-height: 50px;
+		border-radius: 15px;
+		margin-left: 35%;
+		margin-top: 0px;
+		font-family: Trattatello, fantasy;
+		text-transform: uppercase;
+		font-size: 24px;
+		border: 5px solid #222B2A;
+		text-align: center;
+		letter-spacing: 10px;
+		font-weight: 600;
+		color: #222B2A;
+		background:  #DA3D24;
+		box-shadow: 0 8px 15px rgba(0,0,0,.1);
+		transition: .3s;
+	}
+
+	#sub_button:hover{
+		background: #222B2A;
+		box-shadow: 0 15px 20px #222B2A;
+		color: #DA3D24;
+	}
+
+
+	.inp_2 {
+		margin-top: -127px;
+		margin-left: 550px;
+	}
+
+	.inp_4 {	
+		margin-top: -126px;
+		margin-left: 550px;
+	}
+
+	.up_title {
+		background: #DA3D24;
+	    height: 70px;
+	    margin: 0;
+	    padding-top: 1px;
+	    width: 700px;
+	    margin-left: 27%;
+	    border-radius:  0px 0px 25px 25px;
+	}	
+
+	#reg_title {
+		text-decoration: none;
+		font-size: 60px;
+		margin-left: 16%;
+		font-family: Trattatello, fantasy;
+		letter-spacing: 20px;
+		color: #222B2A;
+		margin-top: -5px;
+	}
+
+	.main {	
+		height: 400px;
+		width: 80%;
+		background:  #DA3D24;
+		margin-top: 30px;
+		margin-left: 10%;
+		border-radius: 25px;
+
+	}
+
+	.inp {
+		padding: 50px;
+		margin-left: 40px;
+	}
+
+	.inp input{
+		padding: 20px 20px 20px 20px;
+		background: #E9EFF6;
+		line-height: 40px;
+		border-width: 0;
+		border-radius: 15px;
+		font-family: 'Roboto', sans-serif;
+		margin: 20px;
+		font-size: 30px;
+		border: 3px solid #222B2A;
+	}
+
+	.reg_button input[type="submit"] {
+		width: 700px;
+		background: #DA3D24;
+		height: 70px;
+		margin-left: 27%;
+		margin-top: 20px;
+		border-radius: 15px;
+		color: #222B2A;
+		font-size: 40px;
+		font-weight: 1000;
+		letter-spacing: 4px;
+	}
+
+	#dialog_button {
+		text-decoration: none;
+  		outline: none;
+  		display: inline-block;
+		width: 433px;
+		height: 60px;
+		line-height: 50px;
+		border-radius: 15px;
+		margin-left: 25%;
+		margin-top: 5px;
+		font-family: Trattatello, fantasy;
+		text-transform: uppercase;
+		font-size: 24px;
+		border: 5px solid #222B2A;
+		text-align: center;
+		letter-spacing: 10px;
+		font-weight: 600;
+		color: #222B2A;
+		background:  #DA3D24;
+		box-shadow: 0 8px 15px rgba(0,0,0,.1);
+		transition: .3s;
+	}
+
+	#dialog_button:hover {
+	    background: #222B2A;
+		box-shadow: 0 15px 20px #222B2A;
+		color: #DA3D24;
+	}
+
+	#dialog {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transition: opacity 500ms;
+		visibility: hidden;
+		opacity: 0.5;
+	}
+
+	#dialog:target {
+	    visibility: visible;
+	    opacity: 1;
+	}
+
+	.window {
+	  	padding: 20px;
+	  	background:#222B2A ;
+	  	border-radius: 20px;
+	  	width: 70%;
+	  	height: 240px;
+	  	margin: 205px auto;
+	  	position: relative;
+	  	margin-top: 160px;
+	}
+
+	.window h1{
+		margin-top: 0;
+		letter-spacing: 8px;
+		color: #DA3D24;
+		font-family: Trattatello, fantasy;
+		text-align: center;
+	}
+
+	.window .close_button {
+	  	top: 20px;
+	  	text-decoration: none;
+	  	right: 30px;
+	  	transition: all 200ms;
+	  	font-size: 30px;
+	  	position: absolute;
+	  	font-weight: bold;
+	  	color: #fff;	
+	}
+
+	.window .close_button:hover {
+	  	color: red;
+	}
+
+	.window .text {
+	  	text-align: center;
+	  	font-family: Trattatello, fantasy;
+	  	color: #ddd;
+		letter-spacing: 2px;
+	  	overflow: auto;
+		text-shadow: 0.5px 0.5px 1px black, 0 0 0.2em #DA3D24;
+	}
+
+
+

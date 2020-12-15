@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "form_style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+	
+
+	<title>РЕЄСТРАЦІЯ</title>
+</head>
+<body>
+	<div class="up_title">
+		<h1 id="reg_title">РЕЄСТРАЦІЯ</h1>
+	</div>
+	
+	<form class="form_ochka">
+		<div class="main">
+			<div class="inp">
+				<div class="inp_1">
+					<input id="pib_input" type="text" name="PIB" placeholder="Прізвище Ім'я по Батькові">
+				</div>
+
+				<div class="inp_2">
+					<input id="group_input" name="GROUP" type="text" placeholder="Група" >
+				</div>
+
+				<div class="inp_3">
+					<input id="yob_input" name="YEAR" type="number" placeholder="Рік народження:">
+				</div>
+
+				<div class="inp_4">
+					<input id="email_input" name="EMAIL" placeholder="E-mail">
+				</div>
+
+				
+				<a  id="dialog_button" href="#dialog">Примітка</a>
+				
+					<div id="dialog">
+						<div class="window">
+							<h1>Довідка правильного заповнювання форми:</h1>
+							<a class="close_button" href="#">&times;</a>
+							<div class="text">
+								<h2>Прізвище Ім'я по Батькові записувати українською мовою. </br> 
+								Рік народження заповнювати в діапозоні 1960-2004 років. </br>
+								Номер групи заповнювати згідно вашої реальної групи. </br>
+								E-mail вказувати реальний, через який ви будете отримувати інформацію.
+								 </h2>
+							</div>
+						</div>
+					</div>
+			</div>	
+
+	
+		</div>
+
+
+		
+<h3 align="center" id="msginf"></h3>
+
+		
+
+
+		<input id="sub_button" type="submit" value="Надіслати">	
+		
+
+		
+	</form>
+	
+	<script type="text/javascript" src="JS/js_task.js"></script>
+</body>
+</html>
