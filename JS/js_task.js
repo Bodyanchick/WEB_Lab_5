@@ -5,7 +5,7 @@ $('.form_ochka').submit(function validate_form()
     var msg = $('.form_ochka').serialize();
     
 	let pib_p = /^[А-Яа-яІі\s]+$/;
-	let group_p = /^[А-Яа-яІі]{2,2}-[0-9]{2,2}/;
+	let group_p = /^[А-Яа-яІі]{2,2}\-[0-9][0-9]$/;
 	let email_p = /^[a-z0-9._-]+\@[a-z0-9]+\.[a-z]{2,4}$/;
 	let yob = document.getElementById('yob_input').value;
 	let person = document.getElementById('pib_input').value;
